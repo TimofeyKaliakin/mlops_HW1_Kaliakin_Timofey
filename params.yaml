@@ -1,0 +1,12 @@
+data:
+  processed_dir: data/processed
+  target_col: label
+
+model:
+  C: 1.0
+  max_iter: 200
+  random_state: 42
+
+mlflow:
+  tracking_uri: sqlite:///mlflow.db
+  experiment_name: iris-classification
